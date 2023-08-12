@@ -32,9 +32,9 @@ The figure below illustrates all the tasks of this pipeline.
 * Alternatively, we already saved the results concerning protein interactions, you may use them to run preprocessing in order to obtain the necessary files for the main pipeline
 * Running preprocessing:
     - ````cd preprocessing````
-    - ````python3 data_preprocessing.py ./ filter_files````
+    - ````python3 data_preprocessing.py ./workdir_preprocessing filter_files````
     - ````cd ../````
-    - Copy the generated output folder "data_matrices_count" into the workflow folder: ````cp -R preprocessing/data_matrices_count .````
+    - Copy the generated output folder "data_matrices_count" into the workflow folder: ````cp -R preprocessing/workdir_preprocessing/data_matrices_count .````
 
 ### Main pipeline
 
