@@ -1,0 +1,6 @@
+os
+scipy
+pandas
+sklearn
+Bio python
+numpy

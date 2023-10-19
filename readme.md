@@ -1,4 +1,4 @@
-# Pipeline to aggregate information for PPI
+# PipePatExp - Pipeline to aggregate gene expression correlation information for PPI
 
 Pipeline that uses information of high throughput gene expression experiments publicly available on [GEO](https://www.ncbi.nlm.nih.gov/geo/) to find those where the proteins involved in protein interactions appear high correlated to each other with a cut-of value > 0.97.
 
@@ -26,6 +26,7 @@ The figure below illustrates all the tasks of this pipeline.
 * Preparation:
 	1. ````git clone https://github.com/YasCoMa/PipeAggregationInfo.git````
 	2. ````cd PipeAggregationInfo````
+	3. ````pip3 install -r requirements.txt````
 
 ### Preprocessing pipeline
 * Go to the ncbi [GDS database webpage](https://www.ncbi.nlm.nih.gov/gds), use the key words to filter your gds datasets of interest and save the results as file ("Send to" option), and choose "Summary (text)"
